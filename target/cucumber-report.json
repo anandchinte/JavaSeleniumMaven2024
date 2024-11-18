@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-12T03:43:40.794Z",
+        "line": 4,
+        "name": "Validating Login Process",
+        "description": "",
+        "id": "login-scenarios;validating-login-process",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16814000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Launch browser",
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.openingUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207377000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User search for the flight",
+            "match": {
+              "location": "StepDefinitions.LoginStepDefinition.LoginSuccess()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login Scenarios",
+    "description": "",
+    "id": "login-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
