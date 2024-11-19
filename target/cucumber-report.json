@@ -3,35 +3,35 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-12T03:43:40.794Z",
+        "start_timestamp": "2024-11-19T02:40:31.350Z",
         "line": 4,
-        "name": "Validating Login Process",
+        "name": "Testing Login",
         "description": "",
-        "id": "login-scenarios;validating-login-process",
+        "id": "login-scenarios;testing-login",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 16814000000,
+              "duration": 12775000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "User Launch browser",
+            "name": "User Launch browser window",
             "match": {
-              "location": "StepDefinitions.LoginStepDefinition.openingUrl()"
+              "location": "StepDefinitions.LoginStepVeevaDefinition.user_launch_browsertest()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 207377000000,
+              "duration": 12379000000,
               "status": "passed"
             },
             "line": 8,
             "name": "User search for the flight",
             "match": {
-              "location": "StepDefinitions.LoginStepDefinition.LoginSuccess()"
+              "location": "StepDefinitions.LoginStepVeevaDefinition.LoginSuccess()"
             },
             "keyword": "When "
           }
@@ -47,7 +47,7 @@
     "description": "",
     "id": "login-scenarios",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Login.feature",
+    "uri": "file:src/test/java/features/Login_veeva.feature",
     "tags": []
   }
 ]

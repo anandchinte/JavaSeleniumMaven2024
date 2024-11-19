@@ -1,3 +1,3 @@
 org/kandulavus/AppTest.class
 CucumberTest/TestRunner.class
-StepDefinitions/LoginStepDefinition.class
+StepDefinitions/LoginStepVeevaDefinition.class
